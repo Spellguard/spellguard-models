@@ -1,0 +1,251 @@
+{
+ "about": "The items behind the published results: per set, the item count, the positives, and a SHA-256 over each item's [id, label, text, reply] as one JSON line, in file order. items.py checks a rebuilt set against this.",
+ "items": 67508,
+ "sets": {
+  "horizon-pi|agentic5k_test": {
+   "items": 545,
+   "positives": 280,
+   "sha256": "adada74e7d20238b069d0a844420569fb824e2df625939fbb42565879d233e8d"
+  },
+  "horizon-pi|bipia": {
+   "items": 3178,
+   "positives": 3000,
+   "sha256": "9f4b02f6564eb2e7b53ea8fa933ddbe7ba9b7eba8dd59c83238dc12db72a09e7"
+  },
+  "horizon-pi|boundary_pairs_test": {
+   "items": 240,
+   "positives": 120,
+   "sha256": "9cafc51754a73ca74d265e85b2169cb0aa52777eaf02c7e152ba31f99275fefa"
+  },
+  "horizon-pi|deepset_test": {
+   "items": 116,
+   "positives": 60,
+   "sha256": "7b48156a8ba9b2b4b3f62472b32aea29e29757bf29d00f5da60ec0297b3bd1ab"
+  },
+  "horizon-pi|jackhhao_test": {
+   "items": 262,
+   "positives": 139,
+   "sha256": "009adcf2bb8d2667766238026ad3b95fa1ec1a6e506e2d608909ac7d45711760"
+  },
+  "horizon-pi|llmail_phase2": {
+   "items": 2000,
+   "positives": 2000,
+   "sha256": "37b50441cdf39e27cc5b32218f5e87df890f70ae74d44c97a4e312eac46ee11d"
+  },
+  "horizon-pi|neuralchemy_test": {
+   "items": 942,
+   "positives": 552,
+   "sha256": "dfdb1d10d19f6c30ae8eee2f5f1a37602ce7daea0295eb072c9eddfc1c4e6f44"
+  },
+  "horizon-pi|notinject": {
+   "items": 339,
+   "positives": 0,
+   "sha256": "d5e5405305762d5f8c83691ca6a024e7eb35736e4913b35d15aafd4086874888"
+  },
+  "horizon-pi|orbench_hard": {
+   "items": 1319,
+   "positives": 0,
+   "sha256": "4284ae09da1194631b375d330621d0fc8a0be6a9405148d25ef258aada8526ae"
+  },
+  "horizon-pi|piarena": {
+   "items": 1500,
+   "positives": 750,
+   "sha256": "dd47a9fc967489218a4e94b6a885a1cc8aa893e6d56dd2172e4eb3828cdafac4"
+  },
+  "horizon-pi|simsonsun_jailbreaks": {
+   "items": 2426,
+   "positives": 2426,
+   "sha256": "c1ea72f5520e9f1e6004c78e0771e9ab2b6953614f9fe1657002bc35095ea2d9"
+  },
+  "horizon-pi|slabs_test": {
+   "items": 2101,
+   "positives": 1051,
+   "sha256": "c65c926f2dab1df357cce5f3dd5d456b9b2852643510e1a6a6dadaa65d624ec6"
+  },
+  "horizon-pi|synthetic_direct_test": {
+   "items": 3162,
+   "positives": 1585,
+   "sha256": "a72a3dba36f19247623880fbf057fcda3ec63789260dd8bbec2b1edfb7bacdf8"
+  },
+  "horizon-pi|synthetic_docs_test": {
+   "items": 3354,
+   "positives": 1113,
+   "sha256": "1a74a052640d6d483c93f2221e638a960711fa7e26d46184a7ffbb44c6e38aaa"
+  },
+  "horizon-pi|synthetic_v2_test": {
+   "items": 2839,
+   "positives": 1412,
+   "sha256": "f2b36265833b60a1f4fbbc1d014c33b3b9dfe4f38b68c595f6dd2169aa0bf425"
+  },
+  "horizon-pi|xstest": {
+   "items": 450,
+   "positives": 0,
+   "sha256": "9796fa5820df6382378b379746f8c29d0c84d3515d1807bace51bb752f057dd2"
+  },
+  "content-safety|aya_redteaming": {
+   "items": 2400,
+   "positives": 2400,
+   "sha256": "75cb9b3f1ebad2293ba10abaca15e81f77111835ab17d0b80436ef78ebafacff"
+  },
+  "content-safety|beavertails_response": {
+   "items": 3021,
+   "positives": 1733,
+   "sha256": "6409453b46a1f680b1860d2fb4a5d6ad76fa27c7bb98fb69e662a84c6115c1ae"
+  },
+  "content-safety|openai_mod": {
+   "items": 1680,
+   "positives": 522,
+   "sha256": "0ec4dbe6fd536e2cfb57d88ff9248c8ca2adc33f478997fb62fd9e2474712ac8"
+  },
+  "content-safety|polyguard_prompt": {
+   "items": 6800,
+   "positives": 2873,
+   "sha256": "896aad33de5ce7cf0fa511af4a459f71d5d3d5ae68c79e65759dcc554c84417c"
+  },
+  "content-safety|polyguard_response": {
+   "items": 5100,
+   "positives": 612,
+   "sha256": "93a8715bf4f0fac7c83fdd9efb62bf8de43a2735d2d0cb1172eccf8edafe14e8"
+  },
+  "content-safety|simplesafety": {
+   "items": 100,
+   "positives": 100,
+   "sha256": "44fe244df045169c80c27a47d76741d5c9f713d39e9a0ea6200e6316ecfcfccf"
+  },
+  "content-safety|textdetox": {
+   "items": 5600,
+   "positives": 2800,
+   "sha256": "e2a49f5e1164c0a67c45d29559e5e9eb7bcf9ed04e9484052a58e73a7b0be45a"
+  },
+  "content-safety|toxicchat": {
+   "items": 5083,
+   "positives": 362,
+   "sha256": "366b918fd871ee4ab7336ee07ed58f9791c4590926e12f37c7db7ef18b563341"
+  },
+  "content-safety|xstest": {
+   "items": 450,
+   "positives": 200,
+   "sha256": "ce2abed4487f9cec386db48321996147e597d089cb1c6e7ae727fc1c08f75254"
+  },
+  "aa-guardrail|toxicchat": {
+   "items": 5083,
+   "positives": 362,
+   "sha256": "d9d606e1fcac2c28a07f1463bcea929cd7b7afc2e350bdc037796aad4ccaa45c"
+  },
+  "aa-guardrail|wildguardtest_prompt_harm": {
+   "items": 1699,
+   "positives": 754,
+   "sha256": "c0d464e1fb045a6dac2d07ed076a0cadb349927e6cf56afb4551ef407331d29e"
+  },
+  "aa-guardrail|xstest": {
+   "items": 450,
+   "positives": 200,
+   "sha256": "9fdf4002bd65b05bac90161bdd98eea5493ee7c0b106ad7986f55a1aff896e0e"
+  },
+  "phtest|controversial": {
+   "items": 1192,
+   "positives": 0,
+   "sha256": "ac4b72d710388e15e5e9fb9d06c097cc407b5f888ca574dfc156106be9a1647d"
+  },
+  "phtest|harmless": {
+   "items": 2077,
+   "positives": 0,
+   "sha256": "58b35aa93db1522547c667bca59fa109d2eb285aff67cc241e774254af99abf6"
+  },
+  "jailbreakbench|artifact__DSN__white_box__llama-2-7b-chat-hf": {
+   "items": 100,
+   "positives": 94,
+   "sha256": "b502c472dfb35068ebb438d6861318a40d3a470a75529742e4ff36ae590879b7"
+  },
+  "jailbreakbench|artifact__DSN__white_box__vicuna-13b-v1.5": {
+   "items": 100,
+   "positives": 95,
+   "sha256": "6ea78bd371b89cc816f85cd2baffe56d5abe2b276b9b8ff628a44628d4ca4b03"
+  },
+  "jailbreakbench|artifact__GCG__transfer__gpt-3.5-turbo-1106": {
+   "items": 100,
+   "positives": 47,
+   "sha256": "8f5c4f2ea9ca78a3cda7ab960120c4ae553f9ba755f75b260b0df3f435d0ac22"
+  },
+  "jailbreakbench|artifact__GCG__transfer__gpt-4-0125-preview": {
+   "items": 100,
+   "positives": 4,
+   "sha256": "b29c3e0850d30d750adcbee2160340b3e34c258a4036528addd29b0c80c64e06"
+  },
+  "jailbreakbench|artifact__GCG__white_box__llama-2-7b-chat-hf": {
+   "items": 100,
+   "positives": 3,
+   "sha256": "6260d2fbac9db68a5a39916ed5363afba3661f4944565641d77a2058cb6974bf"
+  },
+  "jailbreakbench|artifact__GCG__white_box__vicuna-13b-v1.5": {
+   "items": 100,
+   "positives": 80,
+   "sha256": "652a26b228891386b1aafcba0a5643fcc9c42779e743eb059b60ac5e1f817eaa"
+  },
+  "jailbreakbench|artifact__JBC__manual__gpt-3.5-turbo-1106": {
+   "items": 100,
+   "positives": 0,
+   "sha256": "3a4acd6afe5fafea09d9ddcfa81ccf093a7e82f3292dcb950406c3a283ba0ef5"
+  },
+  "jailbreakbench|artifact__JBC__manual__gpt-4-0125-preview": {
+   "items": 100,
+   "positives": 0,
+   "sha256": "0481544bd68acc1f1f7878006f944693686d90b143999d710791bd03c4bc5af9"
+  },
+  "jailbreakbench|artifact__JBC__manual__llama-2-7b-chat-hf": {
+   "items": 100,
+   "positives": 0,
+   "sha256": "91714283cd12c3d401fdfc0023f4bbd599818ae40375aea34f8e18d73e43eabb"
+  },
+  "jailbreakbench|artifact__JBC__manual__vicuna-13b-v1.5": {
+   "items": 100,
+   "positives": 90,
+   "sha256": "4187166beddf6385284b04b9f1a3487677e64b2cca4ad4109af355c48d1f517b"
+  },
+  "jailbreakbench|artifact__PAIR__black_box__gpt-3.5-turbo-1106": {
+   "items": 100,
+   "positives": 71,
+   "sha256": "8677fbd562d98cc31dbce48fc01b15f4e2d8651ffe31c851d982ceaaf15fbfd0"
+  },
+  "jailbreakbench|artifact__PAIR__black_box__gpt-4-0125-preview": {
+   "items": 100,
+   "positives": 34,
+   "sha256": "ac9fc470a07ad0e4d15b68815cc11bc9864b6a954b6cd175700760fefbac4b53"
+  },
+  "jailbreakbench|artifact__PAIR__black_box__llama-2-7b-chat-hf": {
+   "items": 100,
+   "positives": 0,
+   "sha256": "7bd05ef5790276791f74d9ab2bebcfee894988138546a6db279be2876ea2d005"
+  },
+  "jailbreakbench|artifact__PAIR__black_box__vicuna-13b-v1.5": {
+   "items": 100,
+   "positives": 69,
+   "sha256": "ce5c3a706c59f3b5749ad9b29c4a0b2c1a32c9d31ff64450eddc13c963ed0444"
+  },
+  "jailbreakbench|artifact__prompt_with_random_search__black_box__gpt-3.5-turbo-1106": {
+   "items": 100,
+   "positives": 93,
+   "sha256": "1cfefda0f6e899f8d1d023257d882c66da65cbc432902d3bd99698573caac524"
+  },
+  "jailbreakbench|artifact__prompt_with_random_search__black_box__gpt-4-0125-preview": {
+   "items": 100,
+   "positives": 78,
+   "sha256": "523d3963b2e62365aa131e6d2b9bf84a633338bbdbfa2fc2ef90289204a9b3f8"
+  },
+  "jailbreakbench|artifact__prompt_with_random_search__black_box__llama-2-7b-chat-hf": {
+   "items": 100,
+   "positives": 90,
+   "sha256": "e692610b7b610ac2d2ca81b553b3724c15a68c50bf4d91bd723be9c65c117fa9"
+  },
+  "jailbreakbench|artifact__prompt_with_random_search__black_box__vicuna-13b-v1.5": {
+   "items": 100,
+   "positives": 89,
+   "sha256": "91e5d01785b1b58c7905397330148d369e388ac9b6e97baaf5082f1d4cbede85"
+  },
+  "jailbreakbench|behaviors": {
+   "items": 200,
+   "positives": 100,
+   "sha256": "6c50a4dd328a5f859a2419c3270463f12b6d463cab625caa12b03b0d04bb5ff1"
+  }
+ }
+}

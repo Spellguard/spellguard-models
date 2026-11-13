@@ -1,0 +1,214 @@
+{
+ "model": "Spellguard/Spellguard-1.0-8B",
+ "baseline": "Qwen/Qwen3Guard-Gen-8B",
+ "measured_with": "Q4_K_M GGUF, llama.cpp 1f8fa52 through eval/run.sh on one NVIDIA L40S (2026-11-13), flag at P(Unsafe)+P(Controversial) >= 0.5",
+ "headlines": {
+  "aa-guardrail": {
+   "qwen3guard_gen_8b": 86.9355,
+   "spellguard_1.0_8b": 91.0104
+  },
+  "content-safety": {
+   "qwen3guard_gen_8b": 78.6422,
+   "spellguard_1.0_8b": 80.5523
+  },
+  "horizon-pi": {
+   "qwen3guard_gen_8b": 55.4376,
+   "spellguard_1.0_8b": 75.6441
+  },
+  "jailbreakbench": {
+   "qwen3guard_gen_8b": 0.125,
+   "spellguard_1.0_8b": 0.4375
+  },
+  "phtest": {
+   "qwen3guard_gen_8b": 80.6933,
+   "spellguard_1.0_8b": 94.5595
+  }
+ },
+ "sets": {
+  "aa-guardrail|toxicchat": {
+   "items": 5083,
+   "qwen3guard_gen_8b": 79.4376,
+   "spellguard_1.0_8b": 86.9011,
+   "training_split_of_same_collection": false
+  },
+  "aa-guardrail|wildguardtest_prompt_harm": {
+   "items": 1699,
+   "qwen3guard_gen_8b": 90.9494,
+   "spellguard_1.0_8b": 90.8441,
+   "training_split_of_same_collection": true
+  },
+  "aa-guardrail|xstest": {
+   "items": 450,
+   "qwen3guard_gen_8b": 90.4194,
+   "spellguard_1.0_8b": 95.2862,
+   "training_split_of_same_collection": false
+  },
+  "content-safety|aya_redteaming": {
+   "items": 2400,
+   "qwen3guard_gen_8b": 96.9957,
+   "spellguard_1.0_8b": 89.1199,
+   "training_split_of_same_collection": false
+  },
+  "content-safety|beavertails_response": {
+   "items": 3021,
+   "qwen3guard_gen_8b": 86.6397,
+   "spellguard_1.0_8b": 86.3636,
+   "training_split_of_same_collection": false
+  },
+  "content-safety|openai_mod": {
+   "items": 1680,
+   "qwen3guard_gen_8b": 68.3089,
+   "spellguard_1.0_8b": 73.3824,
+   "training_split_of_same_collection": false
+  },
+  "content-safety|polyguard_prompt": {
+   "items": 6800,
+   "qwen3guard_gen_8b": 84.5264,
+   "spellguard_1.0_8b": 84.2045,
+   "training_split_of_same_collection": false
+  },
+  "content-safety|polyguard_response": {
+   "items": 5100,
+   "qwen3guard_gen_8b": 80.1749,
+   "spellguard_1.0_8b": 82.2875,
+   "training_split_of_same_collection": false
+  },
+  "content-safety|simplesafety": {
+   "items": 100,
+   "qwen3guard_gen_8b": 99.4975,
+   "spellguard_1.0_8b": 99.4975,
+   "training_split_of_same_collection": false
+  },
+  "content-safety|textdetox": {
+   "items": 5600,
+   "qwen3guard_gen_8b": 77.5008,
+   "spellguard_1.0_8b": 67.0951,
+   "training_split_of_same_collection": false
+  },
+  "content-safety|toxicchat": {
+   "items": 5083,
+   "qwen3guard_gen_8b": 63.4146,
+   "spellguard_1.0_8b": 75.718,
+   "training_split_of_same_collection": false
+  },
+  "content-safety|xstest": {
+   "items": 450,
+   "qwen3guard_gen_8b": 89.9297,
+   "spellguard_1.0_8b": 94.8148,
+   "training_split_of_same_collection": false
+  },
+  "horizon-pi|agentic5k_test": {
+   "items": 545,
+   "qwen3guard_gen_8b": 77.5681,
+   "spellguard_1.0_8b": 98.9209,
+   "training_split_of_same_collection": true
+  },
+  "horizon-pi|bipia": {
+   "items": 3178,
+   "qwen3guard_gen_8b": 24.4814,
+   "spellguard_1.0_8b": 39.4004,
+   "training_split_of_same_collection": false
+  },
+  "horizon-pi|boundary_pairs_test": {
+   "items": 240,
+   "qwen3guard_gen_8b": 93.9759,
+   "spellguard_1.0_8b": 93.6508,
+   "training_split_of_same_collection": false
+  },
+  "horizon-pi|deepset_test": {
+   "items": 116,
+   "qwen3guard_gen_8b": 66.6667,
+   "spellguard_1.0_8b": 75.2475,
+   "training_split_of_same_collection": true
+  },
+  "horizon-pi|jackhhao_test": {
+   "items": 262,
+   "qwen3guard_gen_8b": 95.0355,
+   "spellguard_1.0_8b": 94.4238,
+   "training_split_of_same_collection": true
+  },
+  "horizon-pi|llmail_phase2": {
+   "items": 2000,
+   "qwen3guard_gen_8b": 5.85,
+   "spellguard_1.0_8b": 78.45,
+   "training_split_of_same_collection": true
+  },
+  "horizon-pi|neuralchemy_test": {
+   "items": 942,
+   "qwen3guard_gen_8b": 75.3219,
+   "spellguard_1.0_8b": 94.7754,
+   "training_split_of_same_collection": true
+  },
+  "horizon-pi|notinject": {
+   "items": 339,
+   "qwen3guard_gen_8b": 98.5251,
+   "spellguard_1.0_8b": 98.5251,
+   "training_split_of_same_collection": false
+  },
+  "horizon-pi|orbench_hard": {
+   "items": 1319,
+   "qwen3guard_gen_8b": 21.9864,
+   "spellguard_1.0_8b": 81.1221,
+   "training_split_of_same_collection": true
+  },
+  "horizon-pi|piarena": {
+   "items": 1500,
+   "qwen3guard_gen_8b": 6.3532,
+   "spellguard_1.0_8b": 49.7502,
+   "training_split_of_same_collection": false
+  },
+  "horizon-pi|simsonsun_jailbreaks": {
+   "items": 2426,
+   "qwen3guard_gen_8b": 92.1682,
+   "spellguard_1.0_8b": 91.4262,
+   "training_split_of_same_collection": false
+  },
+  "horizon-pi|slabs_test": {
+   "items": 2101,
+   "qwen3guard_gen_8b": 33.5443,
+   "spellguard_1.0_8b": 85.59,
+   "training_split_of_same_collection": true
+  },
+  "horizon-pi|synthetic_direct_test": {
+   "items": 3162,
+   "qwen3guard_gen_8b": 94.0544,
+   "spellguard_1.0_8b": 97.8737,
+   "training_split_of_same_collection": false
+  },
+  "horizon-pi|synthetic_docs_test": {
+   "items": 3354,
+   "qwen3guard_gen_8b": 66.5927,
+   "spellguard_1.0_8b": 93.5763,
+   "training_split_of_same_collection": false
+  },
+  "horizon-pi|synthetic_v2_test": {
+   "items": 2839,
+   "qwen3guard_gen_8b": 84.46,
+   "spellguard_1.0_8b": 88.0183,
+   "training_split_of_same_collection": false
+  },
+  "horizon-pi|xstest": {
+   "items": 450,
+   "qwen3guard_gen_8b": 49.3333,
+   "spellguard_1.0_8b": 54.4444,
+   "training_split_of_same_collection": false
+  },
+  "phtest|controversial": {
+   "items": 1192,
+   "qwen3guard_gen_8b": 37.1644,
+   "spellguard_1.0_8b": 71.9799,
+   "training_split_of_same_collection": false
+  },
+  "phtest|harmless": {
+   "items": 2077,
+   "qwen3guard_gen_8b": 80.6933,
+   "spellguard_1.0_8b": 94.5595,
+   "training_split_of_same_collection": false
+  }
+ },
+ "jailbreakbench_benign_behaviors_flagged": {
+  "qwen3guard_gen_8b": 58,
+  "spellguard_1.0_8b": 26,
+  "of": 100
+ }
+}
